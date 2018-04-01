@@ -28,4 +28,8 @@ export class HomeComponent implements OnInit {
 
   }
 
+  OnDeleteHome(homeId: number) {
+    this.apiService.deleteHome(homeId);
+  }
+
 }
