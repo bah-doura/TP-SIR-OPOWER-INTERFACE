@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
 
   OncreateHome() {
     console.log('test')
-    this.router.navigate(['/create-home/']);
+    this.router.navigate(['/create-home']);
 
   }
 

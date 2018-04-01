@@ -9,13 +9,15 @@ import {HttpClientModule} from '@angular/common/http';
 import {ApiService} from './services/api-serivces';
 import { CreateHomeComponent } from './create-home/create-home.component';
 import {AppRoutingModule} from './app-routing.module';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CreateHomeComponent
+    CreateHomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
