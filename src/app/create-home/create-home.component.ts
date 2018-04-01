@@ -22,7 +22,7 @@ export class CreateHomeComponent implements OnInit {
     this.homenbp = form.value.homeNbp;
     this.apiService.creatHome(this.homesize, this.homenbp).then(
       this.router.navigate(['/home'])
-    )
+    );
 
   }
 

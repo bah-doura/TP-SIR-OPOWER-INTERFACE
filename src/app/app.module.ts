@@ -10,6 +10,7 @@ import {ApiService} from './services/api-serivces';
 import { CreateHomeComponent } from './create-home/create-home.component';
 import {AppRoutingModule} from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
+import { EditeHomeComponent } from './edite-home/edite-home.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HeaderComponent } from './header/header.component';
     AppComponent,
     HomeComponent,
     CreateHomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    EditeHomeComponent
   ],
   imports: [
     BrowserModule,

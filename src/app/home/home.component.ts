@@ -13,6 +13,10 @@ export class HomeComponent implements OnInit {
   constructor(private apiService: ApiService, private  router: Router) { }
 
   ngOnInit() {
+    this.getAllHome();
+  }
+
+  getAllHome() {
     this.apiService.getListAllHomes().then(
       (data:  any[]) => {
         this.listHome = data;
@@ -21,15 +25,20 @@ export class HomeComponent implements OnInit {
 
     );
   }
-
   OncreateHome() {
-    console.log('test')
+    console.log('test');
     this.router.navigate(['/create-home']);
 
   }
 
   OnDeleteHome(homeId: number) {
-    this.apiService.deleteHome(homeId);
+    this.apiService.deleteHome(homeId).then(
+      this.getAllHome()
+    );
+  }
+
+  OnUpdate() {
+
   }
 
 }
