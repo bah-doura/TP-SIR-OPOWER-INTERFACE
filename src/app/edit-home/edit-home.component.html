@@ -1,0 +1,19 @@
+
+<br><br><br>
+<H1 class="panel-heading text-center popover-header"> Edit Home</H1>
+<br>
+<div class="container">
+  <div class="card card-container">
+    <form class="form-signin"  (ngSubmit)="OnEditHome(f)" #f="ngForm">
+      <label for="homeSize">Home size</label>
+      <input value="{{homesize}}" type="number" id="homeSize" class="form-control" name="homeSize"
+             placeholder="Size" required autofocus ngModel class="form-control">
+      <label for="homeNbp">Number of people</label>
+      <input value="{{homenbp}}" type="number" id="homeNbp" class="form-control" name="homeNbp"
+             placeholder="number of people" required autofocus ngModel class="form-control">
+      <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Edit Home</button>
+    </form><!-- /form -->
+  </div><!-- /card-container -->
+</div><!-- /container -->
+
+

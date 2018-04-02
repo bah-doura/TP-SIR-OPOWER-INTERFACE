@@ -10,7 +10,7 @@ import {ApiService} from './services/api-serivces';
 import { CreateHomeComponent } from './create-home/create-home.component';
 import {AppRoutingModule} from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
-import { EditeHomeComponent } from './edite-home/edite-home.component';
+import { EditHomeComponent } from './edit-home/edit-home.component';
 
 
 @NgModule({
@@ -19,7 +19,7 @@ import { EditeHomeComponent } from './edite-home/edite-home.component';
     HomeComponent,
     CreateHomeComponent,
     HeaderComponent,
-    EditeHomeComponent
+    EditHomeComponent
   ],
   imports: [
     BrowserModule,

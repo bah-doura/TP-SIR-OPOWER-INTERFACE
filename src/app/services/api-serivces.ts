@@ -61,6 +61,19 @@ export class ApiService {
     return this.promise;
   }
 
+  updateHome(size: number, nbp: number, homeId: number) {
+    const homeModel = {taille: size, nbP: nbp };
+    const body = JSON.stringify(homeModel);
+    this.promise = new Promise((resolve, reject) => {
+      this.httpClient.put(this.api + this.home + '/' + homeId, JSON.stringify(homeModel), {headers : this.headers}).subscribe(
+        res => {
+          resolve();
+        });
+    });
+    return this.promise;
+  }
+
+
 
 
 }

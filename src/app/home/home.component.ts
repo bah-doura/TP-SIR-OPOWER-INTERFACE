@@ -37,8 +37,8 @@ export class HomeComponent implements OnInit {
     );
   }
 
-  OnUpdate() {
-
+  OnUpdate(homeId: number) {
+    this.router.navigate(['/edit-home/' + homeId]);
   }
 
 }
