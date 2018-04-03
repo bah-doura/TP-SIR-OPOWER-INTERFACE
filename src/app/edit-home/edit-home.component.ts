@@ -43,7 +43,7 @@ export class EditHomeComponent implements OnInit {
     this.homesize = form.value.homeSize;
     this.homenbp = form.value.homeNbp;
       this.apiService.updateHome(this.homesize, this.homenbp, this.homeId).then(
-        this.router.navigate(['/home'])
+        () => {this.router.navigate(['/home']); }
       );
   }
 }
