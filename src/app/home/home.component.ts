@@ -32,8 +32,8 @@ export class HomeComponent implements OnInit {
   }
 
   OnDeleteHome(homeId: number) {
-    this.apiService.deleteHome(homeId).then(
-      this.getAllHome()
+    this.apiService.deleteHome(homeId).subscribe(
+      () => { this.getAllHome(); }
     );
   }
 

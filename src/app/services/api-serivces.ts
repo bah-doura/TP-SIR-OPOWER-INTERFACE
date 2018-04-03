@@ -51,14 +51,7 @@ export class ApiService {
   }
 
   deleteHome(homeId: number) {
-    this.promise = new Promise((resolve, reject) => {
-      this.httpClient.delete(this.api + this.home + '/' + homeId ).subscribe(
-        res => {
-          resolve(res);
-        },
-        error2 => reject());
-    });
-    return this.promise;
+      return this.httpClient.delete(this.api + this.home + '/' + homeId );
   }
 
   updateHome(size: number, nbp: number, homeId: number) {

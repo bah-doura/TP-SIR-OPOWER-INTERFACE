@@ -20,10 +20,13 @@ export class CreateHomeComponent implements OnInit {
   OncreateHome(form: NgForm) {
     this.homesize = form.value.homeSize;
     this.homenbp = form.value.homeNbp;
-    this.apiService.creatHome(this.homesize, this.homenbp).then(
-      this.router.navigate(['/home'])
-    );
-
+    if (this.homenbp && this.homesize) {
+      this.apiService.creatHome(this.homesize, this.homenbp).then(
+        () => {
+          this.router.navigate(['/home']);
+        }
+      );
+    }
   }
 
 }
