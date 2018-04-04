@@ -38,7 +38,6 @@ export class EditHomeComponent implements OnInit {
   }
 
 
-
   OnEditHome(form: NgForm) {
     this.homesize = form.value.homeSize;
     this.homenbp = form.value.homeNbp;

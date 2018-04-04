@@ -5,7 +5,7 @@ import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
 export class ApiService {
 
   private promise;
-   api = 'http://localhost:8090/rest';
+   api = 'http://localhost:4200/rest';
    home = '/home';
   private headers = new HttpHeaders({'Content-Type': 'application/json'});
 
