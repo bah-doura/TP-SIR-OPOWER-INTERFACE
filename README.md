@@ -1,27 +1,28 @@
 # SIRTPOPOWERINTERFACE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
+L'objectif de ce projet est de faire communiquer une application web angular 5 avec une API java.
 
-## Development server
+Ce projet a été généré avec [Angular CLI] (https://github.com/angular/angular-cli) version 1.6.7.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Usage
 
-## Code scaffolding
+- Téléchargez le projet et importez-le  dans un IDE
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Rendez-vous dans le fichier du projet à partir de votre terninale ensuite tapez la commande npm install pour installer les différents
+  plogins. Vous pouvez aussi le faire  facilement à partir du terminale de votre IDE de même avec la commande npm install.
 
-## Build
+- Avant de lancer le projet assurez vous de bien avoir lancé votre API java
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+- Exécutez `npm start` pour un serveur de dev. Accédez à `http: // localhost: 4200 /` sur votre navigateur. L'application sera automatiquement chargée 
 
-## Running unit tests
+![alt text](/home.PNG "Description goes here")
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## note 
 
-## Running end-to-end tests
+Seules les fonctionnalités pour Home ont été implémentées : 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+  - L'affichage de toutes les homes
+  - création  d'une Home
+  - suppression d'une home
+  - modification d'une home
+  
