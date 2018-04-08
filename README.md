@@ -15,11 +15,11 @@ Ce projet a été généré avec [Angular CLI] (https://github.com/angular/angul
 
 - Exécutez `npm start` pour un serveur de dev. Accédez à `http: // localhost: 4200 /` sur votre navigateur. L'application sera automatiquement chargée 
  
- ##Voici à quoi ressembler l'application sur votre navigateur 
+##  Voici à quoi ressemblera l'application sur votre navigateur 
   
 ![alt text](/home.PNG "Description goes here")
 
-## note 
+## Fonctionnalités 
 
 Seules les fonctionnalités pour Home ont été implémentées : 
 
