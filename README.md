@@ -14,7 +14,9 @@ Ce projet a été généré avec [Angular CLI] (https://github.com/angular/angul
 - Avant de lancer le projet assurez vous de bien avoir lancé votre API java
 
 - Exécutez `npm start` pour un serveur de dev. Accédez à `http: // localhost: 4200 /` sur votre navigateur. L'application sera automatiquement chargée 
-
+ 
+ ##Voici à quoi ressembler l'application sur votre navigateur 
+  
 ![alt text](/home.PNG "Description goes here")
 
 ## note 
@@ -22,7 +24,7 @@ Ce projet a été généré avec [Angular CLI] (https://github.com/angular/angul
 Seules les fonctionnalités pour Home ont été implémentées : 
 
   - L'affichage de toutes les homes
-  - création  d'une Home
-  - suppression d'une home
-  - modification d'une home
+  - Création  d'une Home
+  - Suppression d'une home
+  - Modification d'une home
   
